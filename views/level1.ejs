@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ayo this is lv 1</title>
+</head>
+<body>
+    <h1>Root/Level1</h1>
+    <form action="/level1/createObject" method="POST">
+        <fieldset>
+            <legend>Model: Object</legend>
+            <input type="text" placeholder="Key" name="newKey">
+            <input type="text" placeholder="Value" name="newValue">
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+    
+    <table>
+        <colgroup>
+            <col style="width: 33.33vw" span="3"/>
+<!--             <col style="background-color: black" /> -->
+        </colgroup>
+        <tr>
+            <th>Objective</th>
+            <th>Difficulty</th>
+            <th>Method</th>
+        </tr>
+        <% for (let item of objects) { %>
+        <tr class="objects">
+            <td align=center><%= item.objective %></td>
+            <td align=center><%= item.difficulty %></td>
+            <td align=center data-id="<%=item._id%>"><button>Edit</button><button>Delete</button></td>
+        <tr>
+        <% } %>
+    </table>
+
+    <script src="level1_client.js" ></script>
+</body>
+</html>
