@@ -3,4 +3,4 @@ A project made to learn the http methods - then transitioned the software archit
 
 Link: [Demo](https://busy-plum-boa-wig.cyclic.app/)
 
-For now, access the subdirectory by adding "level1" at the end of the URL.
+For now, access the subdirectory by adding "/level1" at the end of the URL.
