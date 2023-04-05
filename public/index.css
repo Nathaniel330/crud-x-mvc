@@ -1,3 +1,7 @@
 html {
     background-color: slategray
 }
+
+nav {
+    margin: 0 0 30px 0;
+}
