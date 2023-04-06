@@ -37,7 +37,7 @@ This online IDE played a huge part on how this app was made.
 
 It was prohibited but before Replit, I downloaded Node in my workstation to do some development. Since I already did something forbidden, I did not want my wanted level to go up and install the text editor of my choice. Instead, I persevered using Notepad++.
 
-After all this covert operations, here it is.
+After all the covert operations, here it is.
 
 <!-- https://replit.com/@Nathaniel330/VelvetyShimmeringInverse -->
 
