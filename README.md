@@ -2,9 +2,11 @@
 A project made to learn the http methods - then transitioned the software architecture pattern into MVC - hitting two birds in a single throw.
 
 Link to Project: [https://busy-plum-boa-wig.cyclic.app/](https://busy-plum-boa-wig.cyclic.app/)
+![crud-x-mvc](https://user-images.githubusercontent.com/110211889/230430260-bb93dd6a-3d9f-4dd3-abba-08072b7521b0.gif)
 
 
 <br>
+
 
 ## 🧰 How It's Made
 * Tech used: HTML, CSS, JavaScript ¯\\\_(ツ)_/¯
